@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GPU-Accelerated and Efficient Multi-View Triangulation for Scene Reconstruction (2014)</title>
+<meta name="description" content="GPU-Accelerated and Efficient Multi-View Triangulation for Scene Reconstruction. J. Mak, M. Hess-Flores, S. Recker, J. D. Owens, K. I. Joy. IEEE Winter Conference on Applications of Computer Vision (WACV), 2014.">
+<link rel="canonical" href="https://mauriciohessflores.github.io/papers/mak2014wacv.html">
+<meta property="og:title" content="GPU-Accelerated and Efficient Multi-View Triangulation for Scene Reconstruction (2014)">
+<meta property="og:description" content="GPU-Accelerated and Efficient Multi-View Triangulation for Scene Reconstruction. J. Mak, M. Hess-Flores, S. Recker, J. D. Owens, K. I. Joy. IEEE Winter Conference on Applications of Computer Vision (WACV), 2014.">
+<meta property="og:url" content="https://mauriciohessflores.github.io/papers/mak2014wacv.html">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://mauriciohessflores.github.io/img/feature-tracks.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../style.css">
+<meta name="citation_title" content="GPU-Accelerated and Efficient Multi-View Triangulation for Scene Reconstruction">
+<meta name="citation_author" content="J. Mak">
+<meta name="citation_author" content="M. Hess-Flores">
+<meta name="citation_author" content="S. Recker">
+<meta name="citation_author" content="J. D. Owens">
+<meta name="citation_author" content="K. I. Joy">
+<meta name="citation_publication_date" content="2014">
+<meta name="citation_conference_title" content="WACV 2014">
+<meta name="citation_doi" content="10.1109/WACV.2014.6836117">
+<meta name="citation_abstract" content="This paper presents a framework for GPU-accelerated N-view triangulation in multi-view reconstruction that improves processing time and final reprojection error with respect to methods in the literature. The framework uses an algorithm based on optimizing an angular error-based L1 cost function and it is shown how adaptive gradient descent can be applied for convergence. The triangulation algorithm is mapped onto the GPU and two approaches for parallelization are compared: one thread per track and one thread block per track. The better performing approach depends on the number of tracks and the lengths of the tracks in the dataset. Furthermore, the algorithm uses statistical sampling based on confidence levels to successfully reduce the quantity of feature track positions needed to triangulate an entire track. Sampling aids in load balancing for the GPU’s SIMD architecture and for exploiting the GPU’s memory hierarchy. When compared to a serial implementation, a typical performance increase of 3–4x can be achieved on a 4-core CPU. On a GPU, large track numbers are favorable and an increase of up to 39x can be achieved. Results on real and synthetic data prove that reprojection errors are similar to the best performing current triangulation methods but costing only a fraction of the computation time, allowing for efficient and accurate triangulation of large scenes.">
+<meta name="citation_pdf_url" content="https://mauriciohessflores.github.io/papers/mak2014wacv.pdf">
+
+</head>
+<body>
+<header class="site"><div class="wrap">
+<a class="brand" href="../index.html">Mauricio Hess-Flores</a>
+<nav><a href="../index.html">Home</a><a href="../publications.html">Publications</a><a href="../cv/CV_MauricioHessFlores.pdf">CV</a></nav>
+</div></header>
+<main class="wrap">
+<p class="crumb"><a href="../publications.html">← Publications</a></p>
+<h1 class="paper">GPU-Accelerated and Efficient Multi-View Triangulation for Scene Reconstruction</h1>
+<p class="pauth">J. Mak, <strong>M. Hess-Flores</strong>, S. Recker, J. D. Owens, K. I. Joy</p>
+<p class="pvenue">IEEE Winter Conference on Applications of Computer Vision (WACV), 2014.</p>
+<p class="plinks big"><a href="../papers/mak2014wacv.pdf">PDF</a> · <a href="https://doi.org/10.1109/WACV.2014.6836117">DOI</a></p>
+<h2>Abstract</h2><p class="abstract">This paper presents a framework for GPU-accelerated N-view triangulation in multi-view reconstruction that improves processing time and final reprojection error with respect to methods in the literature. The framework uses an algorithm based on optimizing an angular error-based L1 cost function and it is shown how adaptive gradient descent can be applied for convergence. The triangulation algorithm is mapped onto the GPU and two approaches for parallelization are compared: one thread per track and one thread block per track. The better performing approach depends on the number of tracks and the lengths of the tracks in the dataset. Furthermore, the algorithm uses statistical sampling based on confidence levels to successfully reduce the quantity of feature track positions needed to triangulate an entire track. Sampling aids in load balancing for the GPU’s SIMD architecture and for exploiting the GPU’s memory hierarchy. When compared to a serial implementation, a typical performance increase of 3–4x can be achieved on a 4-core CPU. On a GPU, large track numbers are favorable and an increase of up to 39x can be achieved. Results on real and synthetic data prove that reprojection errors are similar to the best performing current triangulation methods but costing only a fraction of the computation time, allowing for efficient and accurate triangulation of large scenes.</p>
+<p class="topic">Topic: Multi-view geometry</p>
+</main>
+<footer class="site"><div class="wrap">
+<span>© 2026 Mauricio Hess-Flores</span>
+<span><a href="mailto:mhessflores@spacescience.org">mhessflores@spacescience.org</a></span>
+</div></footer>
+</body>
+</html>
