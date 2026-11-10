@@ -181,7 +181,7 @@ SHIFT airborne campaign datasets, ORNL DAAC:</p>
 <li>AVIRIS-NG L1B Calibrated Radiance, V2 (2025). <a href="https://doi.org/10.3334/ORNLDAAC/2432">doi:10.3334/ORNLDAAC/2432</a></li>
 <li>AVIRIS-NG L2A Orthorectified Surface Reflectance, V2 (2025). <a href="https://doi.org/10.3334/ORNLDAAC/2431">doi:10.3334/ORNLDAAC/2431</a></li>
 <li>AVNG L2 Weekly Georeferenced Surface Reflectance Mosaics (2025). <a href="https://doi.org/10.3334/ORNLDAAC/2289">doi:10.3334/ORNLDAAC/2289</a></li>
-<li>AVIRIS-NG L2A Unrectified Surface Reflectance, V1 (2023). <a href="https://doi.org/10.3334/ORNLDAAC/2376">doi:10.3334/ORNLDAAC/2376</a></li>
+<li>AVIRIS-NG L2A Unrectified Surface Reflectance, V1 (2024). <a href="https://doi.org/10.3334/ORNLDAAC/2376">doi:10.3334/ORNLDAAC/2376</a></li>
 <li>AVIRIS-NG L1A Unrectified Radiance (2023). <a href="https://doi.org/10.3334/ORNLDAAC/2184">doi:10.3334/ORNLDAAC/2184</a></li>
 <li>AVIRIS-NG L2A Unrectified Reflectance (2023). <a href="https://doi.org/10.3334/ORNLDAAC/2183">doi:10.3334/ORNLDAAC/2183</a></li>
 </ul>
