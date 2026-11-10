@@ -14,7 +14,8 @@ SRC, OUT = ROOT / "src", ROOT / "docs"
 # Change SITE_URL when a custom domain is set up (and CNAME is written below).
 SITE_URL = "https://mauriciohessflores.github.io"
 CUSTOM_DOMAIN = ""      # e.g. "mauriciohessflores.com"
-GOATCOUNTER = ""        # e.g. "mhessflores" -> https://mhessflores.goatcounter.com
+GOATCOUNTER = "mhessflores"   # dashboard: https://mhessflores.goatcounter.com
+GOOGLE_VERIFY = "SFerGgqA7v_Tk9SlD5iYh78mS9imiPeHBFSEyyCAsgc"   # Search Console HTML tag; keep
 NAME = "Mauricio Hess-Flores"
 EMAIL = "mhessflores@spacescience.org"
 PROFILES = {
@@ -48,6 +49,7 @@ def page(path, title, description, body, head_extra=""):
 <html lang="en">
 <head>
 <meta charset="utf-8">
+<meta name="google-site-verification" content="{GOOGLE_VERIFY}">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{e(title)}</title>
 <meta name="description" content="{e(description)}">
@@ -150,14 +152,14 @@ def build():
 "url":"{SITE_URL}/","image":"{SITE_URL}/img/feature-tracks.jpg","email":"mailto:{EMAIL}",
 "jobTitle":"Computer Vision Scientist","affiliation":{{"@type":"Organization","name":"Space Science Institute"}},
 "alumniOf":[{{"@type":"CollegeOrUniversity","name":"University of California, Davis"}},{{"@type":"CollegeOrUniversity","name":"Universidad de Costa Rica"}}],
-"knowsAbout":["Computer vision","3D reconstruction","Structure from motion","Photogrammetry","Multi-view triangulation","Planetary science imaging","Geospatial data processing","Uncertainty visualization"],
+"knowsAbout":["Computer vision","Space science","Planetary science","3D reconstruction","Structure from motion","Photogrammetry","Multi-view triangulation","Planetary science imaging","Geospatial data processing","Uncertainty visualization"],
 "sameAs":{sameas}}}
 </script>
 """
     (OUT / "index.html").write_text(page(
-        "index.html", f"{NAME}, PhD | Computer Vision Scientist: 3D Reconstruction and Photogrammetry",
-        "Mauricio Hess-Flores is a computer vision scientist working on 3D reconstruction, structure-from-motion, "
-        "photogrammetry, and planetary and Earth science imaging (NASA JPL, Space Science Institute, UC Davis, LLNL).",
+        "index.html", f"{NAME}, PhD | Computer Vision for Earth and Space Science",
+        "Mauricio Hess-Flores is a computer vision scientist focused on Earth and space science: 3D reconstruction, "
+        "structure-from-motion, photogrammetry and planetary mission imagery (Space Science Institute, NASA JPL, UC Davis, LLNL).",
         body, person))
     urls.append("")
 
