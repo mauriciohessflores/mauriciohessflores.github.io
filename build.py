@@ -58,7 +58,7 @@ def page(path, title, description, body, head_extra=""):
 <meta property="og:description" content="{e(description)}">
 <meta property="og:url" content="{canonical}">
 <meta property="og:type" content="website">
-<meta property="og:image" content="{SITE_URL}/img/feature-tracks.jpg">
+<meta property="og:image" content="{SITE_URL}/img/building-dense.jpg">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,600&display=swap" rel="stylesheet">
@@ -149,7 +149,7 @@ def build():
     sameas = json.dumps(list(PROFILES.values()))
     person = f"""<script type="application/ld+json">
 {{"@context":"https://schema.org","@type":"Person","name":"{NAME}","honorificSuffix":"PhD","alternateName":"Mauricio A. Hess-Flores",
-"url":"{SITE_URL}/","image":"{SITE_URL}/img/feature-tracks.jpg","email":"mailto:{EMAIL}",
+"url":"{SITE_URL}/","image":"{SITE_URL}/img/building-dense.jpg","email":"mailto:{EMAIL}",
 "jobTitle":"Computer Vision Scientist","affiliation":{{"@type":"Organization","name":"Space Science Institute"}},
 "alumniOf":[{{"@type":"CollegeOrUniversity","name":"University of California, Davis"}},{{"@type":"CollegeOrUniversity","name":"Universidad de Costa Rica"}}],
 "knowsAbout":["Computer vision","Space science","Planetary science","3D reconstruction","Structure from motion","SLAM","Photogrammetry","Multi-view triangulation","Bundle adjustment","Pose-graph optimization","Camera calibration","Stereo vision","Image registration","Change detection","Tomography","Remote sensing","Planetary science imaging","Geospatial data processing","Uncertainty visualization"],
