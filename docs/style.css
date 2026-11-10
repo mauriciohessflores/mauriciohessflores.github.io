@@ -54,7 +54,7 @@ ul.mini li { margin: 4px 0; }
 ul.mini span { color: var(--muted); }
 
 .timeline { list-style: none; padding: 0; margin: 0; }
-.timeline li { display: grid; grid-template-columns: 100px 1fr; gap: 16px; padding: 7px 0; border-bottom: 1px dashed var(--line); }
+.timeline > li { display: grid; grid-template-columns: 100px 1fr; gap: 16px; padding: 7px 0; border-bottom: 1px dashed var(--line); }
 .timeline span { color: var(--muted); font-variant-numeric: tabular-nums; }
 
 .two { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; }
@@ -89,7 +89,9 @@ footer.site .wrap { display: flex; justify-content: space-between; flex-wrap: wr
   h1 { font-size: 2.1rem; }
   .theme { grid-template-columns: 1fr; gap: 14px; }
   .theme img { max-width: 260px; }
-  .timeline li { grid-template-columns: 78px 1fr; }
+  .timeline > li { grid-template-columns: 78px 1fr; }
   nav a { margin-left: 14px; }
   .brand { font-size: .95rem; }
 }
+.timeline ul { margin: 4px 0 2px; padding-left: 1.1em; color: var(--muted); font-size: .93rem; }
+.timeline ul li { margin: 2px 0; }
