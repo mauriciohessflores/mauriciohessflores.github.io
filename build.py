@@ -148,11 +148,11 @@ def build():
                                 for p in sel) + "</ul>")
     sameas = json.dumps(list(PROFILES.values()))
     person = f"""<script type="application/ld+json">
-{{"@context":"https://schema.org","@type":"Person","name":"{NAME}","alternateName":"Mauricio A. Hess-Flores",
+{{"@context":"https://schema.org","@type":"Person","name":"{NAME}","honorificSuffix":"PhD","alternateName":"Mauricio A. Hess-Flores",
 "url":"{SITE_URL}/","image":"{SITE_URL}/img/feature-tracks.jpg","email":"mailto:{EMAIL}",
 "jobTitle":"Computer Vision Scientist","affiliation":{{"@type":"Organization","name":"Space Science Institute"}},
 "alumniOf":[{{"@type":"CollegeOrUniversity","name":"University of California, Davis"}},{{"@type":"CollegeOrUniversity","name":"Universidad de Costa Rica"}}],
-"knowsAbout":["Computer vision","Space science","Planetary science","3D reconstruction","Structure from motion","Photogrammetry","Multi-view triangulation","Planetary science imaging","Geospatial data processing","Uncertainty visualization"],
+"knowsAbout":["Computer vision","Space science","Planetary science","3D reconstruction","Structure from motion","SLAM","Photogrammetry","Multi-view triangulation","Bundle adjustment","Pose-graph optimization","Camera calibration","Stereo vision","Image registration","Change detection","Tomography","Remote sensing","Planetary science imaging","Geospatial data processing","Uncertainty visualization"],
 "sameAs":{sameas}}}
 </script>
 """
