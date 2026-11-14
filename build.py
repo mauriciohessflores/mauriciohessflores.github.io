@@ -93,7 +93,7 @@ def links(p, up=""):
     if p.get("doi"):
         out.append(f'<a href="https://doi.org/{p["doi"]}">DOI</a>')
     if p.get("url"):
-        out.append(f'<a href="{p["url"]}">Open access</a>')
+        out.append(f'<a href="{p["url"]}">{"arXiv" if "arxiv.org" in p["url"] else "Open access"}</a>')
     if p.get("pdf") and not up:
         out.append(f'<a href="papers/{p["id"]}.html">Abstract</a>')
     return " · ".join(out)

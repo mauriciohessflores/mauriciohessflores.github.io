@@ -28,7 +28,7 @@
    "title": "Opening the Black Box of 3D Reconstruction Error Analysis with VECTOR",
    "authors": ["R. Fygenson", "K. Jawad", "I. Li", "F. Ayoub", "R. G. Deen", "S. Davidoff", "D. Moritz", "M. A. Hess-Flores"],
    "venue": "IEEE Visualization and Visual Analytics (VIS), pp. 286–290", "conference": "IEEE VIS 2024",
-   "doi": "10.1109/VIS55277.2024.00065"},
+   "doi": "10.1109/VIS55277.2024.00065", "url": "https://arxiv.org/abs/2408.03503"},
 
   {"id": "mak2014accvw", "type": "conference", "year": 2014, "theme": "geometry",
    "title": "A Comparative Study of Recent GPU-Accelerated Multi-View Sequential Reconstruction Triangulation Methods for Large-Scale Scenes",
