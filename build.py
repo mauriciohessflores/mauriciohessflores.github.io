@@ -22,6 +22,7 @@ PROFILES = {
     "Google Scholar": "https://scholar.google.com/citations?user=iLHqpg4AAAAJ",
     "ORCID": "https://orcid.org/0000-0003-0313-1009",
     "ResearchGate": "https://www.researchgate.net/profile/Mauricio-Hess-Flores",
+    "Semantic Scholar": "https://www.semanticscholar.org/author/1398194823",
     "LinkedIn": "https://www.linkedin.com/in/mauriciohessflores/",
 }
 THEMES = {
